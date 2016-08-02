@@ -211,18 +211,18 @@ int mipi_open(char *name)
 	uint8_t no_of_lanes;
 	uint32_t status;
 	uint32_t ref_clock=0;
-
+        //动态分配内存
 	if (!instance) 
 		instance = malloc(sizeof(dsih_ctrl_t));
-
+        //获取时钟
 	ref_clock = module_get_clock("mipi-ref");	
 
 	/* init dsi controller */
-	instance->address = MIPI_DSI_BASE_ADDR;
-	instance->max_lanes = 4;
-	instance->max_hs_to_lp_cycles = 100;
-	instance->max_lp_to_hs_cycles = 40;
-	instance->max_bta_cycles = 4095;
+	instance->address = MIPI_DSI_BASE_ADDR;//0x22040000
+	instance->max_lanes = 4;//最大有4个lane
+	instance->max_hs_to_lp_cycles = 100;//从高速到低速所需要的字节时钟周期数
+	instance->max_lp_to_hs_cycles = 40;//从低速到高速所需要的字节时钟周期数
+	instance->max_bta_cycles = 4095;//总线转换方向所需要的最多时钟周期
 	instance->color_mode_polarity = 1;
 	instance->shut_down_polarity = 1;
 	instance->status = NOT_INITIALIZED;
