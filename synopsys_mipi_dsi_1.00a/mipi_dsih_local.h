@@ -163,11 +163,13 @@ dsih_state_t;
  */
 typedef struct
 {
+	/*对于这个物理地址，我已经问过了小冉，我的估计也是对的。就是在我们的controller的reg_bank.v中有这么一个*/
+	/*寄存器，是专门用来控制外部的PHY的*/
 	/** Physical base address of PHY module */
 	uint32_t address;
-	/** Reference frequency provided to PHY module [MHz] */
+	/** Reference frequency provided to PHY module [MHz] 给外部PHY提供的频率*/
 	uint32_t reference_freq;
-	/** Initialised or not */
+	/** Initialised or not 表示有没有进行初始化*/
 	dsih_state_t status;
 	/** Register read access  function handle*/
 	uint32_t (*core_read_function)(uint32_t addr, uint32_t offset);
@@ -189,24 +191,24 @@ dphy_t;
  */
 typedef struct
 {
-	/** Physical base address of controller */
+	/** Physical base address of controller 控制器的物理地址*/
 	uint32_t address;
-	/** D-PHY instance associated with the DSI host controller*/
+	/** D-PHY instance associated with the DSI host controller跟PHY相关的寄存器*/
 	dphy_t phy_instance;
-	/** Number of lanes physically connected to controller */
+	/** Number of lanes physically connected to controller 表示最大有几个lane*/
 	uint8_t max_lanes;
 	/** Maximum number of byte clock cycles needed by the PHY to transition
-	 * from high speed to low power */
+	 * from high speed to low power 从高速转换到低速所需要的字节时钟周期数量*/
 	uint8_t max_hs_to_lp_cycles;
 	/** Maximum number of byte clock cycles needed by the PHY to transition
-	 * from low power to high speed */
+	 * from low power to high speed 从低速转换到高速所需要的字节时钟周期数量 */
 	uint8_t max_lp_to_hs_cycles;
 	/** Maximum number of byte clock cycles needed by the PHY to perform
-	 * the Bus Turn Around operation */
+	 * the Bus Turn Around operation PHY的总线转换方向所需要的时钟周期*/
 	uint16_t max_bta_cycles;
-	/** Describe the color mode pin (dpicolorm) whether it is active high or low */
+	/** Describe the color mode pin (dpicolorm) whether it is active high or low 颜色模式的极性*/
 	int color_mode_polarity;
-	/** Describe the shut down pin (dpishutdn) whether it is active high or low */
+	/** Describe the shut down pin (dpishutdn) whether it is active high or low 关机的极性*/
 	int shut_down_polarity;
 	/** initialised or not */
 	dsih_state_t status;
