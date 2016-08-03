@@ -111,16 +111,16 @@ dsih_error_t mipi_dsih_open(dsih_ctrl_t * instance)
 	mipi_dsih_hal_gen_rd_vc(instance, 0);//配置通用接口回读的虚拟通道id
 	mipi_dsih_hal_gen_eotp_rx_en(instance, 0);//配置使能EOTp接收
 	mipi_dsih_hal_gen_eotp_tx_en(instance, 0);//配置使能EOTp发送
-	mipi_dsih_hal_bta_en(instance, 0);
-	mipi_dsih_hal_gen_ecc_rx_en(instance, 0);
-	mipi_dsih_hal_gen_crc_rx_en(instance, 0);
-	instance->status = INITIALIZED;
+	mipi_dsih_hal_bta_en(instance, 0);//配置使能总线转换bus turn around请求
+	mipi_dsih_hal_gen_ecc_rx_en(instance, 0);//配置使能ecc接收、错误纠正、报告
+	mipi_dsih_hal_gen_crc_rx_en(instance, 0);//配置使能crc接收、错误报告
+	instance->status = INITIALIZED;//初始化完成
 
 	//sam : 
 	mipi_dsih_ecc_rx(instance ,1);
-	mipi_dsih_peripheral_ack(instance, 1); 
-	mipi_dsih_tear_effect_ack(instance, 1);
-	mipi_dsih_hal_max_rd_size_tx_type(instance, 1);
+	mipi_dsih_peripheral_ack(instance, 1);//使能ack请求，每个packet发出去之后，都将发送一个ack请求
+	mipi_dsih_tear_effect_ack(instance, 1);//使能眼泪效应ack请求
+	mipi_dsih_hal_max_rd_size_tx_type(instance, 1);//配置最大读包的大小
 	
 	ginstance = instance;
 	
