@@ -108,9 +108,9 @@ dsih_error_t mipi_dsih_open(dsih_ctrl_t * instance)
 	mipi_dsih_hal_gen_rd_tx_type(instance, 1, 1);//将DCS标准化的命令集设置为 通用短读包、1参数命令发送类型
 	mipi_dsih_hal_gen_rd_tx_type(instance, 2, 1);//将DCS标准化的命令集设置为 通用短读包、2参数命令发送类型
 	/* by default, RX_VC = 0, NO EOTp, EOTn, BTA, ECC rx and CRC rx */
-	mipi_dsih_hal_gen_rd_vc(instance, 0);
-	mipi_dsih_hal_gen_eotp_rx_en(instance, 0);
-	mipi_dsih_hal_gen_eotp_tx_en(instance, 0);
+	mipi_dsih_hal_gen_rd_vc(instance, 0);//配置通用接口回读的虚拟通道id
+	mipi_dsih_hal_gen_eotp_rx_en(instance, 0);//配置使能EOTp接收
+	mipi_dsih_hal_gen_eotp_tx_en(instance, 0);//配置使能EOTp发送
 	mipi_dsih_hal_bta_en(instance, 0);
 	mipi_dsih_hal_gen_ecc_rx_en(instance, 0);
 	mipi_dsih_hal_gen_crc_rx_en(instance, 0);
