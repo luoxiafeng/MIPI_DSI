@@ -99,14 +99,14 @@ dsih_error_t mipi_dsih_open(dsih_ctrl_t * instance)
 	mipi_dsih_hal_dcs_wr_tx_type(instance, 0, 1);//将DCS标准化的命令集设置为 短写包、0参数命令发送类型
 	mipi_dsih_hal_dcs_wr_tx_type(instance, 1, 1);//将DCS标准化的命令集设置为 短写包、1参数命令发送类型
 	mipi_dsih_hal_dcs_wr_tx_type(instance, 3, 1); /*将DCS标准化的命令集设置为 长写包 发送类型*/
-	mipi_dsih_hal_dcs_rd_tx_type(instance, 0, 1);
-	mipi_dsih_hal_gen_wr_tx_type(instance, 0, 1);
-	mipi_dsih_hal_gen_wr_tx_type(instance, 1, 1);
-	mipi_dsih_hal_gen_wr_tx_type(instance, 2, 1);
-	mipi_dsih_hal_gen_wr_tx_type(instance, 3, 1); /* long packet*/
-	mipi_dsih_hal_gen_rd_tx_type(instance, 0, 1);
-	mipi_dsih_hal_gen_rd_tx_type(instance, 1, 1);
-	mipi_dsih_hal_gen_rd_tx_type(instance, 2, 1);
+	mipi_dsih_hal_dcs_rd_tx_type(instance, 0, 1);//将DCS标准化的命令集设置为 短读包、0参数命令发送类型
+	mipi_dsih_hal_gen_wr_tx_type(instance, 0, 1);//将DCS标准化的命令集设置为 通用短写包、0参数命令发送类型
+	mipi_dsih_hal_gen_wr_tx_type(instance, 1, 1);//将DCS标准化的命令集设置为 通用短写包、1参数命令发送类型
+	mipi_dsih_hal_gen_wr_tx_type(instance, 2, 1);//将DCS标准化的命令集设置为 通用短写包、2参数命令发送类型
+	mipi_dsih_hal_gen_wr_tx_type(instance, 3, 1);/*将DCS标准化的命令集设置为 通用长写包 发送类型*/
+	mipi_dsih_hal_gen_rd_tx_type(instance, 0, 1);//将DCS标准化的命令集设置为 通用短读包、0参数命令发送类型
+	mipi_dsih_hal_gen_rd_tx_type(instance, 1, 1);//将DCS标准化的命令集设置为 通用短读包、1参数命令发送类型
+	mipi_dsih_hal_gen_rd_tx_type(instance, 2, 1);//将DCS标准化的命令集设置为 通用短读包、2参数命令发送类型
 	/* by default, RX_VC = 0, NO EOTp, EOTn, BTA, ECC rx and CRC rx */
 	mipi_dsih_hal_gen_rd_vc(instance, 0);
 	mipi_dsih_hal_gen_eotp_rx_en(instance, 0);
