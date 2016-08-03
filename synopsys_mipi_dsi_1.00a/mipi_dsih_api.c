@@ -96,9 +96,9 @@ dsih_error_t mipi_dsih_open(dsih_ctrl_t * instance)
 	mipi_dsih_hal_dpi_lp_during_vbp(instance, 1);
 	mipi_dsih_hal_dpi_lp_during_vsync(instance, 1);
 	/* by default, all commands are sent in LP */
-	mipi_dsih_hal_dcs_wr_tx_type(instance, 0, 1);
-	mipi_dsih_hal_dcs_wr_tx_type(instance, 1, 1);
-	mipi_dsih_hal_dcs_wr_tx_type(instance, 3, 1); /* long packet*/
+	mipi_dsih_hal_dcs_wr_tx_type(instance, 0, 1);//将DCS标准化的命令集设置为 短写包、0参数命令发送类型
+	mipi_dsih_hal_dcs_wr_tx_type(instance, 1, 1);//将DCS标准化的命令集设置为 短写包、1参数命令发送类型
+	mipi_dsih_hal_dcs_wr_tx_type(instance, 3, 1); /*将DCS标准化的命令集设置为 长写包 发送类型*/
 	mipi_dsih_hal_dcs_rd_tx_type(instance, 0, 1);
 	mipi_dsih_hal_gen_wr_tx_type(instance, 0, 1);
 	mipi_dsih_hal_gen_wr_tx_type(instance, 1, 1);
