@@ -356,6 +356,10 @@ int mipi_close(void)
 	return 0;
 }
 
+/*
+*(1)将一个gpio设置为输出模式
+*(2)配置HDMI的时钟
+*/
 int mipi_init(int dbi_flag)
 {
 	uint32_t val;
@@ -368,7 +372,7 @@ int mipi_init(int dbi_flag)
 	 * enable dsi ref&cfg clock*/
 	
 	writel(0x7, 0x21e2c01c);
-	if(dbi_flag==1){
+	if(dbi_flag==1){//如果标志是1，则执行这段代码。0x21E0_0000系统控制器，0X2C000是IDS1的偏移
 	   val = readl(0x21e2c000);
 	   val |= 0x8;
 	   writel(val, 0x21e2c000);
