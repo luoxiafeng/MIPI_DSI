@@ -84,10 +84,18 @@ static void mipi_dsi_test_24burst(int flag)
 {
         struct ids_mannual_image imagecfg;
         struct osd_dma dma;
-
+        /*
+        *(1)LCD是ids里面的一个控制器。
+        *(2)所以LCD控制器的初始化就变成了ids模块的初始化。module enable和配置时钟。
+        *(3)MIPI DSI有自己的控制器。mipi init就是配置PHY的时钟。
+        */
         if (lcd_init(0) < 0 || mipi_init(0) < 0)
                 return;
-
+        /*
+        *(1)这里是打开一个LCD pannel的配置。
+        *(2)其实也不是打开，就是匹配。文件中定义了一个结构体数组，每个结构体表示一个lcd型号的屏幕。
+        *   这里就是根据屏的名字来匹配。找到对应的结构体，就把结构体中的参数填写在lcd controller的寄存器中。
+        */
         if (lcd_open("KR070LB0S_1024_600") < 0)
                 return;
 
