@@ -98,12 +98,17 @@ static void mipi_dsi_test_24burst(int flag)
         */
         if (lcd_open("KR070LB0S_1024_600") < 0)
                 return;
-
+	/*
+	*(1)我们已经从结构体数组中获取了LCD屏幕的参数数据，并且配置到lcd controller寄存器中了。
+	*(2)当前这个接口就是从控制器寄存器中获取 屏幕的水平宽度和垂直高度。分配dma buffer = hight*width*4
+	*/
         osd_dma_init(&dma, LCD_MODE, 1);
         memset(&imagecfg, 0, sizeof(struct ids_mannual_image));
         imagecfg.mem = dma.buf[0].vir_addr;
 
-        /* mannual draw image */
+        /*
+        *(1)这个函数其实就是从一个文件中将图片数据加载到imagecfg指向的内存中。
+        */
         ids_draw_image(&imagecfg, LCD_MODE);
         /* init osd module */
         osd_common_init(WINDOWS0, LCD_MODE, &dma);
