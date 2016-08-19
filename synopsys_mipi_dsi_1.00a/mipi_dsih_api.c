@@ -463,14 +463,21 @@ dsih_error_t mipi_dsih_dpi_video(dsih_ctrl_t * instance, dsih_dpi_video_t * vide
 		return ERR_DSI_PHY_POWERUP;
 	} */ // sam
 	ratio_clock_xPF = (video_params->byte_clock * PRECISION_FACTOR ) / (video_params->pixel_clock); /* * video_params->no_of_lanes */
-	video_size = video_params->h_active_pixels;
-
+	video_size = video_params->h_active_pixels;//水平分辨率
+	//使能ack，这个函数其实很简单，就是将VID_MODE_CFG寄存器的bit11写1，表示一帧结束的时候，会请求ack信号
 	mipi_dsih_hal_dpi_frame_ack_en(instance, video_params->receive_ack_packets);
 	if (video_params->receive_ack_packets)
-	{ /* if ACK is requested, enable BTA, otherwise leave as is */
+	{ 
+		/* 
+		*(1)if ACK is requested, enable BTA, otherwise leave as is 
+		*(2)从这里就可以看出，bus trun around是什么意思了。
+		*(3)使能bus turn around请求。当我们传输一帧数据结束的时候，总线需要改变方向，接收ack信号
+		*/
 		mipi_dsih_hal_bta_en(instance, 1);
 	}
+	//使能命令模式协议，用来发送。CMD_MODE_CFG寄存器的bit0设置为1
 	mipi_dsih_hal_gen_cmd_mode_en(instance, 0);
+	//将VID_MODE_CFG寄存器的bit0设置为1.使能DPI视频模式发送。
 	mipi_dsih_hal_dpi_video_mode_en(instance, 1);
 
 	switch (video_params->color_coding)
