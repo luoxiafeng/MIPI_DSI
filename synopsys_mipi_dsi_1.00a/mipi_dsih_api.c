@@ -79,22 +79,22 @@ dsih_error_t mipi_dsih_open(dsih_ctrl_t * instance)
 		}
 	}
 	//mipi_dsih_hal_power(instance, 1);
-	mipi_dsih_hal_dpi_color_mode_pol(instance, !instance->color_mode_polarity);
-	mipi_dsih_hal_dpi_shut_down_pol(instance, !instance->shut_down_polarity);
-	err = mipi_dsih_phy_hs2lp_config(instance, instance->max_hs_to_lp_cycles);
-	err |= 	mipi_dsih_phy_lp2hs_config(instance, instance->max_lp_to_hs_cycles);
-	err |= mipi_dsih_phy_bta_time(instance, instance->max_bta_cycles);
+	mipi_dsih_hal_dpi_color_mode_pol(instance, !instance->color_mode_polarity);//设置color mode pin的极性
+	mipi_dsih_hal_dpi_shut_down_pol(instance, !instance->shut_down_polarity);//设置shut down pin的极性
+	err = mipi_dsih_phy_hs2lp_config(instance, instance->max_hs_to_lp_cycles);//设置phy从高速到低功耗切换的cycles
+	err |= 	mipi_dsih_phy_lp2hs_config(instance, instance->max_lp_to_hs_cycles);//设置phy从低功耗切换到高速模式的cycles
+	err |= mipi_dsih_phy_bta_time(instance, instance->max_bta_cycles);//设置总线的turn around时间
 	if (err)
 	{
 		return ERR_DSI_OVERFLOW;
 	}
 	/* by default, return to LP during ALL, unless otherwise specified*/
-	mipi_dsih_hal_dpi_lp_during_hfp(instance, 1);
-	mipi_dsih_hal_dpi_lp_during_hbp(instance, 1);
-	mipi_dsih_hal_dpi_lp_during_vactive(instance, 1);
-	mipi_dsih_hal_dpi_lp_during_vfp(instance, 1);
-	mipi_dsih_hal_dpi_lp_during_vbp(instance, 1);
-	mipi_dsih_hal_dpi_lp_during_vsync(instance, 1);
+	mipi_dsih_hal_dpi_lp_during_hfp(instance, 1);//在时序允许的情况下，允许在右边界时间周期内，进入到低功耗模式
+	mipi_dsih_hal_dpi_lp_during_hbp(instance, 1);//在时序允许的情况下，允许在左边界时间周期内，进入到低功耗模式
+	mipi_dsih_hal_dpi_lp_during_vactive(instance, 1);//在时序允许的情况下，允许在总线切换时间周期内，进入到低功耗模式
+	mipi_dsih_hal_dpi_lp_during_vfp(instance, 1);//在时序允许的情况下，允许在下边界时间周期内，进入到低功耗模式
+	mipi_dsih_hal_dpi_lp_during_vbp(instance, 1);//在时序允许的情况下，允许在上边界时间周期内，进入到低功耗模式
+	mipi_dsih_hal_dpi_lp_during_vsync(instance, 1);//在时序允许的情况下，允许在垂直同步时间周期内，进入到低功耗模式
 	/* by default, all commands are sent in LP */
 	mipi_dsih_hal_dcs_wr_tx_type(instance, 0, 1);//将DCS标准化的命令集设置为 短写包、0参数命令发送类型
 	mipi_dsih_hal_dcs_wr_tx_type(instance, 1, 1);//将DCS标准化的命令集设置为 短写包、1参数命令发送类型
