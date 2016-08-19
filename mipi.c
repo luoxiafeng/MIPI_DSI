@@ -151,11 +151,19 @@ int mipi_set_transfer_mode(dsih_video_mode_t mode)
 	return mipi_dsih_dpi_video(instance, &video);	
 }
 
+/*
+*(1)设置视频的虚拟通道号
+*(2)设置视频的颜色编码格式
+*(3)设置视频的字节时钟
+*(4)设置视频的视频模式
+*(5)设置视频是否接受ack信号
+*(6)设置视频的像素时钟
+*/
 static int mipi_get_screem_params(dsih_dpi_video_t *video, char *name,uint8_t no_of_lanes)
 {
 	uint32_t rate;
 	int i;
-
+ 	//这个数组是我们预先定义好的。数组中的每个结构体都对应一个LCD pannel。我们找到参数name指定的lcd pannel
 	for (i = 0;i < ARRAY_SIZE(panel);i++)
 		if (!strcmp(panel[i].name, name))
 			break;
@@ -177,18 +185,21 @@ static int mipi_get_screem_params(dsih_dpi_video_t *video, char *name,uint8_t no
 	video->data_en_polarity = 1;
 	//video->h_polarity = panel[i].mHSyncPolarity;
 	//video->h_polarity = 0;
-	video->h_polarity = !panel[i].mHSyncPolarity;
-	video->h_active_pixels = panel[i].mHActive;
-	video->h_sync_pixels = panel[i].mHSyncPulseWidth;
-	video->h_back_porch_pixels = panel[i].mHBackPorch;
+	video->h_polarity = !panel[i].mHSyncPolarity;//设置水平同步信号的极性
+	video->h_active_pixels = panel[i].mHActive;//设置水平分辨率
+	video->h_sync_pixels = panel[i].mHSyncPulseWidth;//设置水平同步的像素个数
+	video->h_back_porch_pixels = panel[i].mHBackPorch;//设置左边界的像素个数
+	//设置水平总像素个数：水平分辨率+左边界+右边界+水平同步
 	video->h_total_pixels = panel[i].mHActive + panel[i].mHFrontPorch +
 					panel[i].mHSyncPulseWidth + panel[i].mHBackPorch;
-	video->v_active_lines = panel[i].mVActive;
+					
+	video->v_active_lines = panel[i].mVActive; //设置垂直分辨率
 	//video->v_polarity = panel[i].mVSyncPolarity;
 	//video->v_polarity = 0;
-	video->v_polarity = !panel[i].mVSyncPolarity;
-	video->v_sync_lines = panel[i].mVSyncPulseWidth;
-	video->v_back_porch_lines = panel[i].mVBackPorch;
+	video->v_polarity = !panel[i].mVSyncPolarity;//设置垂直同步的极性
+	video->v_sync_lines = panel[i].mVSyncPulseWidth;//设置垂直同步的行数
+	video->v_back_porch_lines = panel[i].mVBackPorch;//设置上边界的行数
+	//设置垂直总行数： 垂直分辨率+上边界+下边界+垂直同步
 	video->v_total_lines = panel[i].mVActive + panel[i].mVFrontPorch +
 					panel[i].mVSyncPulseWidth + panel[i].mVBackPorch;
 
@@ -201,7 +212,9 @@ int mipi_get_screen_size(int *width, int *height)
 	*height = video.v_active_lines;
 	return 0;
 }
-
+/*
+*(1)这里有个非常有意思的现象：就是使用mipi去打开一个lcd pannel，不难想象，我们是通过mipi dsi的接口往ids的lcd传数据
+*/
 int mipi_open(char *name)
 {
 	//uint8_t cmd_buffer[10];
