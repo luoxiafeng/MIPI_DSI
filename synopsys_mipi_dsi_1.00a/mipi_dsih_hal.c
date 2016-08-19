@@ -220,6 +220,8 @@ void mipi_dsih_hal_dpi_18_loosely_packet_en(dsih_ctrl_t * instance, int enable)
  */
 void mipi_dsih_hal_dpi_color_mode_pol(dsih_ctrl_t * instance, int active_low)
 {
+	//这里的意思就是将寄存器0xc的 bit9宽度为1，设置为active_low的值。
+	//就是设置color mode的极性
 	mipi_dsih_write_part(instance, R_DSI_HOST_DPI_CFG, active_low, 9, 1);
 }
 /**
@@ -229,6 +231,8 @@ void mipi_dsih_hal_dpi_color_mode_pol(dsih_ctrl_t * instance, int active_low)
  */
 void mipi_dsih_hal_dpi_shut_down_pol(dsih_ctrl_t * instance, int active_low)
 {
+	//这里的意思就是将寄存器0xc的 bit9宽度为1，设置为active_low的值。
+	//就是设置color mode的极性
 	mipi_dsih_write_part(instance, R_DSI_HOST_DPI_CFG, active_low, 8, 1);
 }
 /**
@@ -293,6 +297,8 @@ void mipi_dsih_hal_dpi_multi_packet_en(dsih_ctrl_t * instance, int enable)
  */
 void mipi_dsih_hal_dpi_lp_during_hfp(dsih_ctrl_t * instance, int enable)
 {
+	//在时序允许的情况下，允许在右边界时间周期内，进入到低功耗模式
+	//就是将视频模式配置寄存器的对应的bit位写1：VID_MOD_CFG
 	mipi_dsih_write_part(instance, R_DSI_HOST_VID_MODE_CFG, enable, 8, 1);
 }
 /**
@@ -303,6 +309,8 @@ void mipi_dsih_hal_dpi_lp_during_hfp(dsih_ctrl_t * instance, int enable)
  */
 void mipi_dsih_hal_dpi_lp_during_hbp(dsih_ctrl_t * instance, int enable)
 {
+	//在时序允许的情况下，允许在左边界时间周期内，进入到低功耗模式
+	//就是将视频模式配置寄存器的对应的bit位写1：VID_MOD_CFG
 	mipi_dsih_write_part(instance, R_DSI_HOST_VID_MODE_CFG, enable, 7, 1);
 }
 /**
@@ -313,6 +321,8 @@ void mipi_dsih_hal_dpi_lp_during_hbp(dsih_ctrl_t * instance, int enable)
  */
 void mipi_dsih_hal_dpi_lp_during_vactive(dsih_ctrl_t * instance, int enable)
 {
+	//在时序允许的情况下，允许在垂直分辨率时间周期内，进入到低功耗模式
+	//就是将视频模式配置寄存器的对应的bit位写1：VID_MOD_CFG
 	mipi_dsih_write_part(instance, R_DSI_HOST_VID_MODE_CFG, enable, 6, 1);
 }
 /**
@@ -323,6 +333,7 @@ void mipi_dsih_hal_dpi_lp_during_vactive(dsih_ctrl_t * instance, int enable)
  */
 void mipi_dsih_hal_dpi_lp_during_vfp(dsih_ctrl_t * instance, int enable)
 {
+	//在时序允许的情况下，允许在下边界时间周期内，进入到低功耗模式
 	mipi_dsih_write_part(instance, R_DSI_HOST_VID_MODE_CFG, enable, 5, 1);
 }
 /**
@@ -333,6 +344,7 @@ void mipi_dsih_hal_dpi_lp_during_vfp(dsih_ctrl_t * instance, int enable)
  */
 void mipi_dsih_hal_dpi_lp_during_vbp(dsih_ctrl_t * instance, int enable)
 {
+	//在时序允许的情况下，允许在上边界时间周期内，进入到低功耗模式
 	mipi_dsih_write_part(instance, R_DSI_HOST_VID_MODE_CFG, enable, 4, 1);
 }
 /**
@@ -932,6 +944,8 @@ int mipi_dsih_hal_gen_cmd_fifo_empty(dsih_ctrl_t * instance)
  */
 dsih_error_t mipi_dsih_phy_hs2lp_config(dsih_ctrl_t * instance, uint8_t no_of_byte_cycles)
 {
+	//这里的意思就是将寄存器0x30的 bit20宽度为8，设置为no_of_byte_cycles的值。
+	//就是设置从高速切换到低功耗状态，所需要的时钟cycles
 	mipi_dsih_write_part(instance, R_DSI_HOST_PHY_TMR_CFG, no_of_byte_cycles, 20, 8);
 	return OK;
 }
@@ -944,6 +958,8 @@ dsih_error_t mipi_dsih_phy_hs2lp_config(dsih_ctrl_t * instance, uint8_t no_of_by
  */
 dsih_error_t mipi_dsih_phy_lp2hs_config(dsih_ctrl_t * instance, uint8_t no_of_byte_cycles)
 {
+	//这里的意思就是将寄存器0x30的 bit12宽度为8，设置为no_of_byte_cycles的值。
+	//就是设置从低功耗状态切换到高速模式，所需要的时钟cycles
 	mipi_dsih_write_part(instance, R_DSI_HOST_PHY_TMR_CFG, no_of_byte_cycles, 12, 8);
 	return OK;
 }
@@ -958,6 +974,8 @@ dsih_error_t mipi_dsih_phy_bta_time(dsih_ctrl_t * instance, uint16_t no_of_byte_
 {
 	if (no_of_byte_cycles < 0x8000) /* 12-bit field */
 	{
+		//这里的意思就是将寄存器0x30的 bit0宽度为12，设置为no_of_byte_cycles的值。
+	    	//就是设置bus 转向，所需要的时钟cycles
 		mipi_dsih_write_part(instance, R_DSI_HOST_PHY_TMR_CFG, no_of_byte_cycles, 0, 12);
 	}
 	else
