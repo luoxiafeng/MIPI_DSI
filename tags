@@ -1,0 +1,341 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK_CHECKSUM_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_CHECKSUM_ERR,$/;"	e	enum:__anon4
+ACK_DSI_PROTOCOL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_DSI_PROTOCOL_ERR,$/;"	e	enum:__anon4
+ACK_DSI_TYPE_NOT_RECOGNIZED_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_DSI_TYPE_NOT_RECOGNIZED_ERR,$/;"	e	enum:__anon4
+ACK_ECC_MULTI_BIT_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_ECC_MULTI_BIT_ERR,$/;"	e	enum:__anon4
+ACK_ECC_SINGLE_BIT_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_ECC_SINGLE_BIT_ERR,$/;"	e	enum:__anon4
+ACK_EOT_SYNC	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_EOT_SYNC,$/;"	e	enum:__anon4
+ACK_ESCAPE_CMD_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_ESCAPE_CMD_ERR,$/;"	e	enum:__anon4
+ACK_FALSE_CONTROL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_FALSE_CONTROL_ERR,$/;"	e	enum:__anon4
+ACK_HS_RX_TIMEOUT_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_HS_RX_TIMEOUT_ERR,$/;"	e	enum:__anon4
+ACK_INVALID_TX_LENGTH_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_INVALID_TX_LENGTH_ERR,$/;"	e	enum:__anon4
+ACK_LP_TX_SYNC_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_LP_TX_SYNC_ERR,$/;"	e	enum:__anon4
+ACK_RSVD_DEVICE_ERR_14	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_RSVD_DEVICE_ERR_14,$/;"	e	enum:__anon4
+ACK_RSVD_DEVICE_ERR_7	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_RSVD_DEVICE_ERR_7,$/;"	e	enum:__anon4
+ACK_SOT_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_SOT_ERR = 0,$/;"	e	enum:__anon4
+ACK_SOT_SYNC	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_SOT_SYNC,$/;"	e	enum:__anon4
+ACK_VC_ID_INVALID_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ACK_VC_ID_INVALID_ERR,$/;"	e	enum:__anon4
+ARCHIVE	Makefile	/^ARCHIVE := drv_mipi.a$/;"	m
+BLANKING_PACKET	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	19;"	d	file:
+COLOR_CODE_16BIT_CONFIG1	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	COLOR_CODE_16BIT_CONFIG1,$/;"	e	enum:__anon3
+COLOR_CODE_16BIT_CONFIG2	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	COLOR_CODE_16BIT_CONFIG2,$/;"	e	enum:__anon3
+COLOR_CODE_16BIT_CONFIG3	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	COLOR_CODE_16BIT_CONFIG3,$/;"	e	enum:__anon3
+COLOR_CODE_18BIT_CONFIG1	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	COLOR_CODE_18BIT_CONFIG1,$/;"	e	enum:__anon3
+COLOR_CODE_18BIT_CONFIG2	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	COLOR_CODE_18BIT_CONFIG2,$/;"	e	enum:__anon3
+COLOR_CODE_24BIT	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	COLOR_CODE_24BIT$/;"	e	enum:__anon3
+DBI_ILLEGAL_CMD_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DBI_ILLEGAL_CMD_ERR,$/;"	e	enum:__anon4
+DBI_RX_PLD_FIFO_EMPTY_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DBI_RX_PLD_FIFO_EMPTY_ERR,$/;"	e	enum:__anon4
+DBI_RX_PLD_FIFO_FULL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DBI_RX_PLD_FIFO_FULL_ERR,$/;"	e	enum:__anon4
+DBI_TX_CMD_FIFO_FULL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DBI_TX_CMD_FIFO_FULL_ERR,$/;"	e	enum:__anon4
+DBI_TX_PLD_FIFO_FULL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DBI_TX_PLD_FIFO_FULL_ERR,$/;"	e	enum:__anon4
+DEBUG	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	13;"	d	file:
+DPHY_CONTENTION_LP0_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DPHY_CONTENTION_LP0_ERR,$/;"	e	enum:__anon4
+DPHY_CONTENTION_LP1_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DPHY_CONTENTION_LP1_ERR,$/;"	e	enum:__anon4
+DPHY_CONTROL_LANE0_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DPHY_CONTROL_LANE0_ERR,$/;"	e	enum:__anon4
+DPHY_ESC_ENTRY_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DPHY_ESC_ENTRY_ERR,$/;"	e	enum:__anon4
+DPHY_SYNC_ESC_LP_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DPHY_SYNC_ESC_LP_ERR,$/;"	e	enum:__anon4
+DPI_PLD_FIFO_FULL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DPI_PLD_FIFO_FULL_ERR,$/;"	e	enum:__anon4
+DSIH_FIFO_ACTIVE_WAIT	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	45;"	d
+DSIH_PIXEL_TOLERANCE	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	44;"	d
+DUMMY	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	DUMMY$/;"	e	enum:__anon4
+DWC_MIPI_DPHY_BIDIR_2L_RTL	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	50;"	d
+ERR_DSI_COLOR_CODING	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_COLOR_CODING,$/;"	e	enum:__anon1
+ERR_DSI_CORE_INCOMPATIBLE	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_CORE_INCOMPATIBLE,$/;"	e	enum:__anon1
+ERR_DSI_INVALID_COMMAND	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_INVALID_COMMAND,$/;"	e	enum:__anon1
+ERR_DSI_INVALID_EVENT	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_INVALID_EVENT,$/;"	e	enum:__anon1
+ERR_DSI_INVALID_HANDLE	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_INVALID_HANDLE,$/;"	e	enum:__anon1
+ERR_DSI_INVALID_INSTANCE	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_INVALID_INSTANCE,$/;"	e	enum:__anon1
+ERR_DSI_INVALID_IO	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_INVALID_IO,$/;"	e	enum:__anon1
+ERR_DSI_OUT_OF_BOUND	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_OUT_OF_BOUND,$/;"	e	enum:__anon1
+ERR_DSI_OVERFLOW	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_OVERFLOW,$/;"	e	enum:__anon1
+ERR_DSI_PHY_INVALID	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_PHY_INVALID,$/;"	e	enum:__anon1
+ERR_DSI_PHY_POWERUP	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_PHY_POWERUP,$/;"	e	enum:__anon1
+ERR_DSI_TIMEOUT	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_TIMEOUT$/;"	e	enum:__anon1
+ERR_DSI_VIDEO_MODE	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ERR_DSI_VIDEO_MODE,$/;"	e	enum:__anon1
+GEN_RX_PLD_FIFO_EMPTY_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	GEN_RX_PLD_FIFO_EMPTY_ERR,$/;"	e	enum:__anon4
+GEN_RX_PLD_FIFO_FULL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	GEN_RX_PLD_FIFO_FULL_ERR,$/;"	e	enum:__anon4
+GEN_TX_CMD_FIFO_FULL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	GEN_TX_CMD_FIFO_FULL_ERR,$/;"	e	enum:__anon4
+GEN_TX_PLD_FIFO_EMPTY_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	GEN_TX_PLD_FIFO_EMPTY_ERR,$/;"	e	enum:__anon4
+GEN_TX_PLD_FIFO_FULL_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	GEN_TX_PLD_FIFO_FULL_ERR,$/;"	e	enum:__anon4
+HS_CONTENTION	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	HS_CONTENTION,$/;"	e	enum:__anon4
+INITIALIZED	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	INITIALIZED,$/;"	e	enum:__anon5
+LP_CONTENTION	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	LP_CONTENTION,$/;"	e	enum:__anon4
+MIPI_DSIH_API_H_	synopsys_mipi_dsi_1.00a/mipi_dsih_api.h	38;"	d
+MIPI_DSIH_DPHY_H_	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.h	9;"	d
+MIPI_DSIH_HAL_H_	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	39;"	d
+MIPI_DSIH_LOCAL_H_	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	40;"	d
+NOT_INITIALIZED	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	NOT_INITIALIZED = 0,$/;"	e	enum:__anon5
+NULL_PACKET_OVERHEAD	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	17;"	d	file:
+OFF	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	OFF$/;"	e	enum:__anon5
+OK	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	OK = 0,$/;"	e	enum:__anon1
+ON	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	ON,$/;"	e	enum:__anon5
+PRECISION_FACTOR	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	15;"	d	file:
+RX_CRC_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	RX_CRC_ERR,$/;"	e	enum:__anon4
+RX_ECC_MULTI_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	RX_ECC_MULTI_ERR,$/;"	e	enum:__anon4
+RX_ECC_SINGLE_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	RX_ECC_SINGLE_ERR,$/;"	e	enum:__anon4
+RX_EOPT_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	RX_EOPT_ERR,$/;"	e	enum:__anon4
+RX_PKT_SIZE_ERR	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	RX_PKT_SIZE_ERR,$/;"	e	enum:__anon4
+R_DSI_HOST_CLK_MGR	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	45;"	d
+R_DSI_HOST_CMD_MODE_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	52;"	d
+R_DSI_HOST_CMD_PKT_STATUS	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	58;"	d
+R_DSI_HOST_DBI_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	47;"	d
+R_DSI_HOST_DBI_CMDSIZE	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	48;"	d
+R_DSI_HOST_DPI_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	46;"	d
+R_DSI_HOST_ERROR_MSK0	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	62;"	d
+R_DSI_HOST_ERROR_MSK1	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	63;"	d
+R_DSI_HOST_ERROR_ST0	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	60;"	d
+R_DSI_HOST_ERROR_ST1	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	61;"	d
+R_DSI_HOST_GEN_HDR	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	56;"	d
+R_DSI_HOST_GEN_PLD_DATA	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	57;"	d
+R_DSI_HOST_PCKHDL_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	49;"	d
+R_DSI_HOST_PHY_IF_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.h	14;"	d
+R_DSI_HOST_PHY_IF_CTRL	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.h	15;"	d
+R_DSI_HOST_PHY_RSTZ	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.h	13;"	d
+R_DSI_HOST_PHY_STATUS	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.h	16;"	d
+R_DSI_HOST_PHY_TMR_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	55;"	d
+R_DSI_HOST_PHY_TST_CRTL0	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.h	17;"	d
+R_DSI_HOST_PHY_TST_CRTL1	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.h	18;"	d
+R_DSI_HOST_PWR_UP	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	44;"	d
+R_DSI_HOST_TMR_LINE_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	53;"	d
+R_DSI_HOST_TO_CNT_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	59;"	d
+R_DSI_HOST_VERSION	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	43;"	d
+R_DSI_HOST_VID_MODE_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	50;"	d
+R_DSI_HOST_VID_PKT_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	51;"	d
+R_DSI_HOST_VTIMING_CFG	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.h	54;"	d
+SHORT_PACKET	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	18;"	d	file:
+SRCS	Makefile	/^SRCS := mipi.c	\\$/;"	m
+VIDEO_BURST_WITH_SYNC_PULSES	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	VIDEO_BURST_WITH_SYNC_PULSES$/;"	e	enum:__anon2
+VIDEO_NON_BURST_WITH_SYNC_EVENTS	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	VIDEO_NON_BURST_WITH_SYNC_EVENTS,$/;"	e	enum:__anon2
+VIDEO_NON_BURST_WITH_SYNC_PULSES	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	VIDEO_NON_BURST_WITH_SYNC_PULSES = 0,$/;"	e	enum:__anon2
+VIDEO_PACKET_OVERHEAD	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	16;"	d	file:
+addr	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t addr;$/;"	m	struct:__anon9
+address	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t address;$/;"	m	struct:__anon6
+address	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t address;$/;"	m	struct:__anon7
+byte_clock	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t byte_clock;$/;"	m	struct:__anon8
+calc_hsfreqranges	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^int calc_hsfreqranges(int freq)$/;"	f
+calc_pll_para	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^int calc_pll_para(uint32_t a[], int ref, int freq)$/;"	f
+casename	mipi-main.c	/^static const char *casename[] = {$/;"	v	file:
+color_coding	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	dsih_color_coding_t color_coding;$/;"	m	struct:__anon8
+color_mode_polarity	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	int color_mode_polarity;$/;"	m	struct:__anon7
+core_read_function	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t (*core_read_function)(uint32_t addr, uint32_t offset);$/;"	m	struct:__anon6
+core_read_function	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t (*core_read_function)(uint32_t addr, uint32_t offset);$/;"	m	struct:__anon7
+core_write_function	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	void (*core_write_function)(uint32_t addr, uint32_t offset, uint32_t data);$/;"	m	struct:__anon6
+core_write_function	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	void (*core_write_function)(uint32_t addr, uint32_t offset, uint32_t data);$/;"	m	struct:__anon7
+data	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t data;$/;"	m	struct:__anon9
+data_en_polarity	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	int  	 data_en_polarity;$/;"	m	struct:__anon8
+dphy_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dphy_t;$/;"	t	typeref:struct:__anon6
+dsi_send_long_packet	mipi.c	/^void dsi_send_long_packet(uint8_t *cmd_buffer, unsigned int length)$/;"	f
+dsih_color_coding_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dsih_color_coding_t;$/;"	t	typeref:enum:__anon3
+dsih_ctrl_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dsih_ctrl_t;$/;"	t	typeref:struct:__anon7
+dsih_dpi_video_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dsih_dpi_video_t;$/;"	t	typeref:struct:__anon8
+dsih_error_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dsih_error_t;$/;"	t	typeref:enum:__anon1
+dsih_event_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dsih_event_t;$/;"	t	typeref:enum:__anon4
+dsih_state_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dsih_state_t;$/;"	t	typeref:enum:__anon5
+dsih_video_mode_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^dsih_video_mode_t;$/;"	t	typeref:enum:__anon2
+event_registry	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	void (*event_registry[DUMMY])(void *handler);$/;"	m	struct:__anon7
+ginstance	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_ctrl_t * ginstance;$/;"	v
+h_active_pixels	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t h_active_pixels; \/* hadr*\/$/;"	m	struct:__anon8
+h_back_porch_pixels	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t h_back_porch_pixels;   \/* hbp *\/$/;"	m	struct:__anon8
+h_polarity	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	int      h_polarity;$/;"	m	struct:__anon8
+h_sync_pixels	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t h_sync_pixels;$/;"	m	struct:__anon8
+h_total_pixels	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t h_total_pixels;  \/* h_total *\/$/;"	m	struct:__anon8
+instance	mipi.c	/^static dsih_ctrl_t *instance = NULL;$/;"	v	file:
+is_18_loosely	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	int  	 is_18_loosely;$/;"	m	struct:__anon8
+log_error	mipi.c	/^static void log_error(const char *message)$/;"	f	file:
+log_error	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	void (*log_error)(const char * string);$/;"	m	struct:__anon6
+log_error	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	void (*log_error)(const char * string);$/;"	m	struct:__anon7
+log_info	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	void (*log_info)(const char *fmt, ...);$/;"	m	struct:__anon6
+log_info	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	void (*log_info)(const char *fmt, ...);$/;"	m	struct:__anon7
+max_bta_cycles	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t max_bta_cycles;$/;"	m	struct:__anon7
+max_hs_to_lp_cycles	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint8_t max_hs_to_lp_cycles;$/;"	m	struct:__anon7
+max_lanes	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint8_t max_lanes;$/;"	m	struct:__anon7
+max_lp_to_hs_cycles	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint8_t max_lp_to_hs_cycles;$/;"	m	struct:__anon7
+mipi_case_test_dispatch	mipi-main.c	/^static void mipi_case_test_dispatch(int case_num)$/;"	f	file:
+mipi_close	mipi.c	/^int mipi_close(void)$/;"	f
+mipi_display_ctrl	mipi.c	/^void mipi_display_ctrl(int enable)$/;"	f
+mipi_dsi_test_16burst	mipi-main.c	/^static void mipi_dsi_test_16burst(int config_num)$/;"	f	file:
+mipi_dsi_test_18burst	mipi-main.c	/^static void mipi_dsi_test_18burst(int config_num)$/;"	f	file:
+mipi_dsi_test_24burst	mipi-main.c	/^static void mipi_dsi_test_24burst(int flag)$/;"	f	file:
+mipi_dsi_test_24burst_hd	mipi-main.c	/^static void mipi_dsi_test_24burst_hd(void)$/;"	f	file:
+mipi_dsi_test_dbi	mipi-main.c	/^int mipi_dsi_test_dbi(char *name, int format)$/;"	f
+mipi_dsi_test_hs	mipi-main.c	/^static void mipi_dsi_test_hs(void)$/;"	f	file:
+mipi_dsi_test_lp	mipi-main.c	/^static void mipi_dsi_test_lp(void)$/;"	f	file:
+mipi_dsi_test_no_burst	mipi-main.c	/^static void mipi_dsi_test_no_burst(void)$/;"	f	file:
+mipi_dsi_test_switchcmdvideo	mipi-main.c	/^static void mipi_dsi_test_switchcmdvideo(void)$/;"	f	file:
+mipi_dsi_test_switchonoff	mipi-main.c	/^static void mipi_dsi_test_switchonoff(void)$/;"	f	file:
+mipi_dsih_allow_return_to_lp	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_allow_return_to_lp(dsih_ctrl_t * instance, int hfp, int hbp, int vactive, int vfp, int vbp, int vsync)$/;"	f
+mipi_dsih_close	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_close(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_cmd_mode	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_cmd_mode(dsih_ctrl_t * instance, int en)$/;"	f
+mipi_dsih_dcs_cmd_lp_transmission	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_dcs_cmd_lp_transmission(dsih_ctrl_t * instance, int long_write, int short_write, int short_read)$/;"	f
+mipi_dsih_dcs_rd_cmd	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^uint16_t mipi_dsih_dcs_rd_cmd(dsih_ctrl_t * instance, uint8_t vc, uint8_t command, uint8_t bytes_to_read, uint8_t* read_buffer)$/;"	f
+mipi_dsih_dcs_wr_cmd	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_dcs_wr_cmd(dsih_ctrl_t * instance, uint8_t vc, uint8_t* params, uint16_t param_length)$/;"	f
+mipi_dsih_dphy_clock_en	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_clock_en(dphy_t * instance, int en)$/;"	f
+mipi_dsih_dphy_close	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^dsih_error_t mipi_dsih_dphy_close(dphy_t * phy)$/;"	f
+mipi_dsih_dphy_configure	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^dsih_error_t mipi_dsih_dphy_configure(dphy_t * phy, uint8_t no_of_lanes, uint32_t output_freq)$/;"	f
+mipi_dsih_dphy_get_if_control	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^uint32_t mipi_dsih_dphy_get_if_control(dphy_t * instance, uint8_t mask)$/;"	f
+mipi_dsih_dphy_get_no_of_lanes	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^uint8_t mipi_dsih_dphy_get_no_of_lanes(dphy_t * instance)$/;"	f
+mipi_dsih_dphy_if_control	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_if_control(dphy_t * instance, uint8_t mask)$/;"	f
+mipi_dsih_dphy_no_of_lanes	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_no_of_lanes(dphy_t * instance, uint8_t no_of_lanes)$/;"	f
+mipi_dsih_dphy_open	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^dsih_error_t mipi_dsih_dphy_open(dphy_t * phy)$/;"	f
+mipi_dsih_dphy_read_part	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^uint32_t mipi_dsih_dphy_read_part(dphy_t * instance, uint32_t reg_address, uint8_t shift, uint8_t width)$/;"	f
+mipi_dsih_dphy_read_word	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^uint32_t mipi_dsih_dphy_read_word(dphy_t * instance, uint32_t reg_address)$/;"	f
+mipi_dsih_dphy_reset	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_reset(dphy_t * instance, int reset)$/;"	f
+mipi_dsih_dphy_shutdown	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_shutdown(dphy_t * instance, int powerup)$/;"	f
+mipi_dsih_dphy_status	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^uint32_t mipi_dsih_dphy_status(dphy_t * instance, uint16_t mask)$/;"	f
+mipi_dsih_dphy_stop_wait_time	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_stop_wait_time(dphy_t * instance, uint8_t no_of_byte_cycles)$/;"	f
+mipi_dsih_dphy_test_clear	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_test_clear(dphy_t * instance, int value)$/;"	f
+mipi_dsih_dphy_test_clock	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_test_clock(dphy_t * instance, int value)$/;"	f
+mipi_dsih_dphy_test_data_in	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_test_data_in(dphy_t * instance, uint8_t test_data)$/;"	f
+mipi_dsih_dphy_test_data_out	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^uint8_t mipi_dsih_dphy_test_data_out(dphy_t * instance)$/;"	f
+mipi_dsih_dphy_test_en	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_test_en(dphy_t * instance, uint8_t on_falling_edge)$/;"	f
+mipi_dsih_dphy_write	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_write(dphy_t * instance, uint8_t address, uint8_t * data, uint8_t data_length)$/;"	f
+mipi_dsih_dphy_write_part	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_write_part(dphy_t * instance, uint32_t reg_address, uint32_t data, uint8_t shift, uint8_t width)$/;"	f
+mipi_dsih_dphy_write_word	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void mipi_dsih_dphy_write_word(dphy_t * instance, uint32_t reg_address, uint32_t data)$/;"	f
+mipi_dsih_dpi_video	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_dpi_video(dsih_ctrl_t * instance, dsih_dpi_video_t * video_params)$/;"	f
+mipi_dsih_dump_register_configuration	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^uint32_t mipi_dsih_dump_register_configuration(dsih_ctrl_t * instance, int all, register_config_t *config, uint16_t config_length)$/;"	f
+mipi_dsih_ecc_rx	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_ecc_rx(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_enable_rx	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_enable_rx(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_eotp_rx	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_eotp_rx(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_eotp_tx	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_eotp_tx(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_event_handler	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_event_handler(void * param)$/;"	f
+mipi_dsih_gen_cmd_lp_transmission	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_gen_cmd_lp_transmission(dsih_ctrl_t * instance, int long_write, int short_write, int short_read)$/;"	f
+mipi_dsih_gen_rd_cmd	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^uint16_t mipi_dsih_gen_rd_cmd(dsih_ctrl_t * instance, uint8_t vc, uint8_t command, uint8_t msb_byte, uint8_t lsb_byte, uint8_t bytes_to_read, uint8_t* read_buffer)$/;"	f
+mipi_dsih_gen_wr_cmd	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_gen_wr_cmd(dsih_ctrl_t * instance, uint8_t vc, uint8_t command_type, uint8_t* params, uint16_t param_length)$/;"	f
+mipi_dsih_hal_bta_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_bta_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_cmd_ack_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_cmd_ack_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dcs_rd_tx_type	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_dcs_rd_tx_type(dsih_ctrl_t * instance, unsigned no_of_param, int lp)$/;"	f
+mipi_dsih_hal_dcs_wr_tx_type	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_dcs_wr_tx_type(dsih_ctrl_t * instance, unsigned no_of_param, int lp)$/;"	f
+mipi_dsih_hal_dpi_18_loosely_packet_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_18_loosely_packet_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_chunks_no	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_dpi_chunks_no(dsih_ctrl_t * instance, uint16_t no)$/;"	f
+mipi_dsih_hal_dpi_color_coding	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_dpi_color_coding(dsih_ctrl_t * instance, dsih_color_coding_t color_coding)$/;"	f
+mipi_dsih_hal_dpi_color_mode_pol	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_color_mode_pol(dsih_ctrl_t * instance, int active_low)$/;"	f
+mipi_dsih_hal_dpi_dataen_pol	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_dataen_pol(dsih_ctrl_t * instance, int active_low)$/;"	f
+mipi_dsih_hal_dpi_frame_ack_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_frame_ack_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_get_color_coding	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_color_coding_t mipi_dsih_hal_dpi_get_color_coding(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_dpi_get_color_config	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint8_t mipi_dsih_hal_dpi_get_color_config(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_dpi_get_color_depth	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint8_t mipi_dsih_hal_dpi_get_color_depth(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_dpi_get_video_vc	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint8_t mipi_dsih_hal_dpi_get_video_vc(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_dpi_hbp	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_hbp(dsih_ctrl_t * instance, uint16_t time)$/;"	f
+mipi_dsih_hal_dpi_hline	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_hline(dsih_ctrl_t * instance, uint16_t time)$/;"	f
+mipi_dsih_hal_dpi_hsa	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_hsa(dsih_ctrl_t * instance, uint16_t time)$/;"	f
+mipi_dsih_hal_dpi_hsync_pol	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_hsync_pol(dsih_ctrl_t * instance, int active_low)$/;"	f
+mipi_dsih_hal_dpi_is_video_mode	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_dpi_is_video_mode(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_dpi_lp_during_hbp	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_lp_during_hbp(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_lp_during_hfp	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_lp_during_hfp(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_lp_during_vactive	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_lp_during_vactive(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_lp_during_vbp	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_lp_during_vbp(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_lp_during_vfp	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_lp_during_vfp(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_lp_during_vsync	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_lp_during_vsync(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_multi_packet_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_multi_packet_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_null_packet_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_null_packet_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_null_packet_size	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_dpi_null_packet_size(dsih_ctrl_t * instance, uint16_t size)$/;"	f
+mipi_dsih_hal_dpi_shut_down_pol	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_shut_down_pol(dsih_ctrl_t * instance, int active_low)$/;"	f
+mipi_dsih_hal_dpi_vactive	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_vactive(dsih_ctrl_t * instance, uint16_t lines)$/;"	f
+mipi_dsih_hal_dpi_vbp	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_vbp(dsih_ctrl_t * instance, uint16_t lines)$/;"	f
+mipi_dsih_hal_dpi_vfp	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_vfp(dsih_ctrl_t * instance, uint16_t lines)$/;"	f
+mipi_dsih_hal_dpi_video_mode_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_video_mode_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_dpi_video_mode_type	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_dpi_video_mode_type(dsih_ctrl_t * instance, dsih_video_mode_t type)$/;"	f
+mipi_dsih_hal_dpi_video_packet_size	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_dpi_video_packet_size(dsih_ctrl_t * instance, uint16_t size)$/;"	f
+mipi_dsih_hal_dpi_video_vc	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_video_vc(dsih_ctrl_t * instance, uint8_t vc)$/;"	f
+mipi_dsih_hal_dpi_vsync	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_vsync(dsih_ctrl_t * instance, uint16_t lines)$/;"	f
+mipi_dsih_hal_dpi_vsync_pol	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_dpi_vsync_pol(dsih_ctrl_t * instance, int active_low)$/;"	f
+mipi_dsih_hal_error_mask_0	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_error_mask_0(dsih_ctrl_t * instance, uint32_t mask)$/;"	f
+mipi_dsih_hal_error_mask_1	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_error_mask_1(dsih_ctrl_t * instance, uint32_t mask)$/;"	f
+mipi_dsih_hal_error_status_0	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint32_t mipi_dsih_hal_error_status_0(dsih_ctrl_t * instance, uint32_t mask)$/;"	f
+mipi_dsih_hal_error_status_1	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint32_t mipi_dsih_hal_error_status_1(dsih_ctrl_t * instance, uint32_t mask)$/;"	f
+mipi_dsih_hal_gen_cmd_fifo_empty	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_cmd_fifo_empty(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_cmd_fifo_full	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_cmd_fifo_full(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_cmd_mode_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_gen_cmd_mode_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_gen_crc_rx_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_gen_crc_rx_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_gen_ecc_rx_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_gen_ecc_rx_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_gen_eotp_rx_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_gen_eotp_rx_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_gen_eotp_tx_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_gen_eotp_tx_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_gen_is_cmd_mode	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_is_cmd_mode(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_is_video_mode	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_is_video_mode(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_packet_header	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_gen_packet_header(dsih_ctrl_t * instance, uint8_t vc, uint8_t packet_type, uint8_t ms_byte, uint8_t ls_byte)$/;"	f
+mipi_dsih_hal_gen_packet_payload	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_gen_packet_payload(dsih_ctrl_t * instance, uint32_t payload)$/;"	f
+mipi_dsih_hal_gen_rd_cmd_busy	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_rd_cmd_busy(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_rd_tx_type	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_gen_rd_tx_type(dsih_ctrl_t * instance, unsigned no_of_param, int lp)$/;"	f
+mipi_dsih_hal_gen_rd_vc	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_gen_rd_vc(dsih_ctrl_t * instance, uint8_t vc)$/;"	f
+mipi_dsih_hal_gen_read_fifo_empty	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_read_fifo_empty(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_read_fifo_full	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_read_fifo_full(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_read_payload	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t  mipi_dsih_hal_gen_read_payload(dsih_ctrl_t * instance, uint32_t* payload)$/;"	f
+mipi_dsih_hal_gen_wr_tx_type	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_hal_gen_wr_tx_type(dsih_ctrl_t * instance, unsigned no_of_param, int lp)$/;"	f
+mipi_dsih_hal_gen_write_fifo_empty	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_write_fifo_empty(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_gen_write_fifo_full	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_gen_write_fifo_full(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_get_error_mask_0	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint32_t mipi_dsih_hal_get_error_mask_0(dsih_ctrl_t * instance, uint32_t mask)$/;"	f
+mipi_dsih_hal_get_error_mask_1	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint32_t mipi_dsih_hal_get_error_mask_1(dsih_ctrl_t * instance, uint32_t mask)$/;"	f
+mipi_dsih_hal_get_power	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^int mipi_dsih_hal_get_power(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_get_version	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint32_t mipi_dsih_hal_get_version(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_hal_hs_tx_timeout	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_hs_tx_timeout(dsih_ctrl_t * instance, uint16_t count)$/;"	f
+mipi_dsih_hal_lp_rx_timeout	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_lp_rx_timeout(dsih_ctrl_t * instance, uint16_t count)$/;"	f
+mipi_dsih_hal_max_rd_size_tx_type	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_max_rd_size_tx_type(dsih_ctrl_t * instance, int lp)$/;"	f
+mipi_dsih_hal_power	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_power(dsih_ctrl_t * instance, int on)$/;"	f
+mipi_dsih_hal_tear_effect_ack_en	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_tear_effect_ack_en(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_hal_timeout_clock_division	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_timeout_clock_division(dsih_ctrl_t * instance, uint8_t byte_clk_division_factor)$/;"	f
+mipi_dsih_hal_tx_escape_timeout	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_hal_tx_escape_timeout(dsih_ctrl_t * instance, uint8_t tx_escape_division)$/;"	f
+mipi_dsih_no_of_versions	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^static const uint32_t mipi_dsih_no_of_versions = sizeof(mipi_dsih_supported_versions) \/ sizeof(uint32_t);$/;"	v	file:
+mipi_dsih_open	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_open(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_peripheral_ack	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_peripheral_ack(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_phy_bta_time	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_phy_bta_time(dsih_ctrl_t * instance, uint16_t no_of_byte_cycles)$/;"	f
+mipi_dsih_phy_hs2lp_config	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_phy_hs2lp_config(dsih_ctrl_t * instance, uint8_t no_of_byte_cycles)$/;"	f
+mipi_dsih_phy_lp2hs_config	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^dsih_error_t mipi_dsih_phy_lp2hs_config(dsih_ctrl_t * instance, uint8_t no_of_byte_cycles)$/;"	f
+mipi_dsih_read_part	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint32_t mipi_dsih_read_part(dsih_ctrl_t * instance, uint32_t reg_address, uint8_t shift, uint8_t width)$/;"	f
+mipi_dsih_read_word	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^uint32_t mipi_dsih_read_word(dsih_ctrl_t * instance, uint32_t reg_address)$/;"	f
+mipi_dsih_register_event	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_register_event(dsih_ctrl_t * instance, dsih_event_t event, void (*handler)(void*))$/;"	f
+mipi_dsih_reset_controller	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_reset_controller(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_reset_phy	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_reset_phy(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_shutdown_controller	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_shutdown_controller(dsih_ctrl_t * instance, int shutdown)$/;"	f
+mipi_dsih_shutdown_phy	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_shutdown_phy(dsih_ctrl_t * instance, int shutdown)$/;"	f
+mipi_dsih_supported_versions	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^static const uint32_t mipi_dsih_supported_versions[] = {0x3130312A};	\/\/ 0x3130302A ?$/;"	v	file:
+mipi_dsih_tear_effect_ack	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_tear_effect_ack(dsih_ctrl_t * instance, int enable)$/;"	f
+mipi_dsih_unregister_all_events	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_unregister_all_events(dsih_ctrl_t * instance)$/;"	f
+mipi_dsih_unregister_event	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_unregister_event(dsih_ctrl_t * instance, dsih_event_t event)$/;"	f
+mipi_dsih_video_mode	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^void mipi_dsih_video_mode(dsih_ctrl_t * instance, int en)                    $/;"	f
+mipi_dsih_wait_pll_lock	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^dsih_error_t mipi_dsih_wait_pll_lock(void)$/;"	f
+mipi_dsih_write_part	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_write_part(dsih_ctrl_t * instance, uint32_t reg_address, uint32_t data, uint8_t shift, uint8_t width)$/;"	f
+mipi_dsih_write_register_configuration	synopsys_mipi_dsi_1.00a/mipi_dsih_api.c	/^uint32_t mipi_dsih_write_register_configuration(dsih_ctrl_t * instance, register_config_t *config, uint16_t config_length)$/;"	f
+mipi_dsih_write_word	synopsys_mipi_dsi_1.00a/mipi_dsih_hal.c	/^void mipi_dsih_write_word(dsih_ctrl_t * instance, uint32_t reg_address, uint32_t data)$/;"	f
+mipi_get_err_status	mipi.c	/^void mipi_get_err_status(void)$/;"	f
+mipi_get_screem_params	mipi.c	/^static int mipi_get_screem_params(dsih_dpi_video_t *video, char *name,uint8_t no_of_lanes)$/;"	f	file:
+mipi_get_screen_size	mipi.c	/^int mipi_get_screen_size(int *width, int *height)$/;"	f
+mipi_init	mipi.c	/^int mipi_init(int dbi_flag)$/;"	f
+mipi_open	mipi.c	/^int mipi_open(char *name)$/;"	f
+mipi_read	mipi.c	/^static uint32_t mipi_read(uint32_t base, uint32_t offset)$/;"	f	file:
+mipi_recv_cmd	mipi.c	/^int mipi_recv_cmd(uint8_t *buf, int length)$/;"	f
+mipi_reg_check	mipi.c	/^int mipi_reg_check(void)$/;"	f
+mipi_send_ctrl	mipi.c	/^void mipi_send_ctrl(uint8_t *buf, int length)$/;"	f
+mipi_set_pixel_format	mipi.c	/^int mipi_set_pixel_format(dsih_color_coding_t format)$/;"	f
+mipi_set_transfer_mode	mipi.c	/^int mipi_set_transfer_mode(dsih_video_mode_t mode)$/;"	f
+mipi_switch_mode	mipi.c	/^void mipi_switch_mode(int mode)$/;"	f
+mipi_write	mipi.c	/^static void mipi_write(uint32_t base, uint32_t offset, uint32_t data)$/;"	f	file:
+mipitest_init	mipi-main.c	/^testbench_init(mipitest_init);$/;"	v
+mipitest_init	mipi-main.c	/^void mipitest_init(void)$/;"	f
+mipitest_main	mipi-main.c	/^int mipitest_main(int argc, char *argv[])$/;"	f
+mipitest_rtl	mipi-main.c	/^int mipitest_rtl(int id)$/;"	f
+mipitest_show_usage	mipi-main.c	/^static void mipitest_show_usage(void)$/;"	f	file:
+no_of_lanes	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint8_t  no_of_lanes;$/;"	m	struct:__anon8
+phy_instance	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	dphy_t phy_instance;$/;"	m	struct:__anon7
+pixel_clock	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t pixel_clock;$/;"	m	struct:__anon8
+receive_ack_packets	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	int 	 receive_ack_packets;$/;"	m	struct:__anon8
+reference_freq	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint32_t reference_freq;$/;"	m	struct:__anon6
+reg	mipi.c	/^static struct reg_check reg[] = {$/;"	v	typeref:struct:reg_check	file:
+register_config_t	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^register_config_t;$/;"	t	typeref:struct:__anon9
+result	mipi-main.c	/^static const char *result[] = {$/;"	v	file:
+shut_down_polarity	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	int shut_down_polarity;$/;"	m	struct:__anon7
+status	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	dsih_state_t status;$/;"	m	struct:__anon6
+status	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	dsih_state_t status;$/;"	m	struct:__anon7
+transfer_testcode	synopsys_mipi_dsi_1.00a/mipi_dsih_dphy.c	/^void transfer_testcode(dphy_t *phy, uint8_t addr, uint8_t val) {$/;"	f
+v_active_lines	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t v_active_lines; \/* vadr*\/$/;"	m	struct:__anon8
+v_back_porch_lines	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t v_back_porch_lines;   \/* vbp *\/$/;"	m	struct:__anon8
+v_polarity	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	int      v_polarity;$/;"	m	struct:__anon8
+v_sync_lines	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t v_sync_lines;$/;"	m	struct:__anon8
+v_total_lines	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint16_t v_total_lines;  \/* v_total *\/$/;"	m	struct:__anon8
+video	mipi.c	/^dsih_dpi_video_t video;$/;"	v
+video_mode	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	dsih_video_mode_t video_mode;$/;"	m	struct:__anon8
+virtual_channel	synopsys_mipi_dsi_1.00a/mipi_dsih_local.h	/^	uint8_t  virtual_channel;$/;"	m	struct:__anon8
